@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "98448438179",
+    "project_id": "instoo-f4b5a",
+    "storage_bucket": "instoo-f4b5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98448438179:android:76f935fece6b21aa396016",
+        "android_client_info": {
+          "package_name": "com.example.instoo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98448438179-k3mguecfhuv0ji40609ms0cn56s52ejp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5P4_NuoQD58CvH6rUh8KXc3z-hJpALiw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "98448438179-k3mguecfhuv0ji40609ms0cn56s52ejp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "98448438179-4v5d890iqu0dqf8pt97h81aedpu48ke3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.instoo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
