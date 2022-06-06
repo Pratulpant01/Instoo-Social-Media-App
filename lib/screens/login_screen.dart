@@ -39,7 +39,7 @@ class _LoginScreenState extends State<LoginScreen> {
       _isLoading = false;
     });
     if (result == 'success') {
-      Navigator.push(
+      Navigator.pushReplacement(
         context,
         MaterialPageRoute(
           builder: (context) => const ResponsiveLayout(
