@@ -5,7 +5,7 @@ import 'package:instoo/utils/colors.dart';
 import 'package:instoo/widgets/post_card.dart';
 
 class FeedScreen extends StatelessWidget {
-  const FeedScreen({Key? key}) : super(key: key);
+  FeedScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

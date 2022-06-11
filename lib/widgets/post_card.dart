@@ -20,6 +20,7 @@ class PostCard extends StatefulWidget {
 
 class _PostCardState extends State<PostCard> {
   bool isLikeAnimating = false;
+  bool isLoading = true;
   int commentLength = 0;
 
   @override
@@ -28,14 +29,21 @@ class _PostCardState extends State<PostCard> {
     getComments();
   }
 
-  void getComments() async {
+  getComments() async {
+    setState(() {
+      isLoading = true;
+    });
     QuerySnapshot snap = await FirebaseFirestore.instance
         .collection('posts')
         .doc(widget.snap['postId'])
         .collection('comments')
         .get();
     commentLength = snap.docs.length;
+
     setState(() {});
+    setState(() {
+      isLoading = false;
+    });
   }
 
   @override

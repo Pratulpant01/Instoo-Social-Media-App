@@ -2,6 +2,7 @@ import 'dart:typed_data';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/material.dart';
 import 'package:instoo/models/user.dart' as model;
 import 'package:instoo/resources/storage_methods.dart';
 
@@ -89,5 +90,9 @@ class AuthMethods {
       result = error.toString();
     }
     return result;
+  }
+
+  Future<void> signoutUser() async {
+    await FirebaseAuth.instance.signOut();
   }
 }
