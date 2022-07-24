@@ -6,6 +6,8 @@ The social media application that allows user to check out new feed, like, comme
 
 ![](https://github.com/Pratulpant01/Instoo-Social-Media-App/blob/master/Insto%20Feed%20Screen.gif)
 
+![](https://github.com/Pratulpant01/Instoo-Social-Media-App/blob/master/Instoo%20features.gif)
+
 
 
 
